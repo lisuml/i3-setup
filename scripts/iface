@@ -24,7 +24,7 @@ IF=wlp3s0
 	if [ $count -gt 30 ]; then
 	  	IF_NEW=$(ip route | awk '/^default/ { print $5 ; exit }')
 	   	count=0
-		if [ ! $IF_NEW ="" ]; then
+		if [ ! $IF_NEW = "" ]; then
 		IF=$IF_NEW
 	
 		fi
