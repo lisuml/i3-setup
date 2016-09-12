@@ -19,3 +19,4 @@ cp ./config $HOME/.config/i3/config
 cp ./i3lock-wrapper $HOME/.config/i3/i3lock-wrapper
 cp ./wallpaper/ $HOME/.wallpaper/*
 cp ./Xresources $HOME/.Xresources
+cp ./bashrc $HOME/.bashrc
