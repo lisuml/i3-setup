@@ -126,16 +126,16 @@ bindsym $mod+space              focus mode_toggle
 bindsym $mod+a                  focus parent
 
 # Name for the workspaces
-set $workspace1 "1: "
+set $workspace1 "1: "
 set $workspace2 "2: "
-set $workspace3 "3: "
+set $workspace3 "3: "
 set $workspace4 "4: "
 set $workspace5 "5: "
 set $workspace6 "6: "
 set $workspace7 "7: "
 set $workspace8 "8: "
 set $workspace9 "9: "
-set $workspace0 "10: "
+set $workspace0 "10: "
 
 # switch to workspace
 bindsym $mod+1                  workspace $workspace1
@@ -162,7 +162,7 @@ bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace0
 
 #bind tools to workspaces
-assign [class="chromium"] $workspace1
+assign [class="Firefox"] $workspace1
 # reload the configuration file
 bindsym $mod+Shift+c             reload
 
