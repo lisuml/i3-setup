@@ -75,6 +75,9 @@ bindsym $mod+x                  exec $HOME/.config/i3/i3lock-wrapper
 # kill focused window
 bindsym $mod+Shift+q            kill
 
+# start file manager
+bindsym $mod+n                  exec --no-startup-id pcmanfm
+
 # start dmenu-launcher
 #bindsym $mod+d exec		j4-dmenu-desktop
 bindsym  $mod+d exec 		rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$base01" -bg "$base01" -fg "$base07" -hlbg "$base01" -hlfg "#9575cd" font "System San FRancisco Display 20"
