@@ -2,7 +2,7 @@
 
 #set -e #abort on error
 
-sudo pacman -Sy --noconfirm i3 dash feh i3lock rofi compton imagemagick scrot pulseaudio-ctl gsimplecal rxvt-unicode acpi
+sudo pacman -Sy --noconfirm i3 dash feh i3lock rofi compton imagemagick scrot pulseaudio-ctl gsimplecal rxvt-unicode acpi notify-osd
 yaourt -S --noconfirm ttf-font-awesome i3blocks pcmanfm
 ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
 
