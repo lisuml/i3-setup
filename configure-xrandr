@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+PRIMARY="eDP1"
+EXTERNAL="HDMI1"
+
+if (xrandr | grep "$EXTERNAL connected"); then
+    xrandr --output $EXTERNAL --primary --auto
+    xrandr --output $PRIMARY --off
+else
+    xrandr --output $EXTERNAL --off
+    xrandr --output $PRIMARY --primary --auto
+fi

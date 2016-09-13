@@ -20,3 +20,4 @@ cp ./i3lock-wrapper $HOME/.config/i3/i3lock-wrapper
 cp ./wallpaper/ $HOME/.wallpaper/*
 cp ./Xresources $HOME/.Xresources
 cp ./bashrc $HOME/.bashrc
+cp ./configure-xrandr $HOME/.config/i3/configure-xrandr

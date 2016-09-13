@@ -25,13 +25,16 @@ floating_modifier $mod
 
 # Remove window decorations
 new_window 1pixel
+
+# Detect screens early
+exec_always ~/.config/i3/configure-xrandr
+
+
 #############################################
 #                  Colors                   #
 #############################################
 
-
-
-#alexbooker i3 colors
+# alexbooker i3 colors
 set $base00 #101218
 set $base01 #2F343F
 set $base02 #1F242F
