@@ -17,7 +17,7 @@ mkdir -p $HOME/screenshots
 cp ./i3blocks/i3blocks.conf $HOME/.config/i3blocks/config
 cp ./config $HOME/.config/i3/config
 cp ./i3lock-wrapper $HOME/.config/i3/i3lock-wrapper
-cp ./wallpaper/ $HOME/.wallpaper/*
+cp ./wallpaper/* $HOME/.wallpaper
 cp ./Xresources $HOME/.Xresources
 cp ./bashrc $HOME/.bashrc
 cp ./configure-xrandr $HOME/.config/i3/configure-xrandr
