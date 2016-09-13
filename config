@@ -256,10 +256,12 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 focus_follows_mouse no
 
-#printscreen bind
+# printscreen bind
 bindsym Print exec scrot -q 95 '%Y-%m-%d-%s_$wx$h_scrot.png' -e 'mv $f ~/screenshots/'
 
 exec_always --no-startup-id feh --bg-max "$(find $HOME/.wallpaper/|shuf -n1)"
 
 exec compton -f
 
+exec --no-startup-id blueberry-tray
+exec --no-startup-id nm-applet
