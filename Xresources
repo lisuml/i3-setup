@@ -182,3 +182,4 @@ URxvt*shading:                        15
 ! URxvt*tabbar-fg:                      colour
 ! URxvt*url-launcher:                   string
 
+URxvt*termName: rxvt-unicode
