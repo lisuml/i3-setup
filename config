@@ -82,8 +82,8 @@ bindsym $mod+Shift+q            kill
 bindsym $mod+n                  exec --no-startup-id pcmanfm
 
 # start dmenu-launcher
-#bindsym $mod+d exec		j4-dmenu-desktop
-bindsym  $mod+d exec 		rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$base01" -bg "$base01" -fg "$base07" -hlbg "$base01" -hlfg "#9575cd" font "System San FRancisco Display 20"
+#bindsym $mod+d exec    j4-dmenu-desktop
+bindsym  $mod+d exec    rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$base01" -bg "$base01" -fg "$base07" -hlbg "$base01" -hlfg "#9575cd" font "System San FRancisco Display 20"
 
 # change focus
 bindsym $mod+h                  focus left
