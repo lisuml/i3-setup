@@ -238,8 +238,10 @@ bindsym Control+Mod1+Delete exec /usr/lib/i3blocks/shutdown_menu
 # Pulse Audio controls
 # increase sound volume
 bindsym XF86AudioRaiseVolume exec --no-startup-id pulseaudio-ctl up && pkill -RTMIN+1 i3blocks
+bindsym ctrl+Up exec --no-startup-id pulseaudio-ctl up && pkill -RTMIN+1 i3blocks
 # decrease sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pulseaudio-ctl down && pkill -RTMIN+1 i3blocks
+bindsym ctrl+Down exec --no-startup-id pulseaudio-ctl down && pkill -RTMIN+1 i3blocks
 # mute sound
 bindsym XF86AudioMute exec --no-startup-id pulseaudio-ctl mute && pkill -RTMIN+1 i3blocks
 
