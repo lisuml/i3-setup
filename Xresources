@@ -6,33 +6,23 @@
 *pointerColorBackground:#2B2C2B
 *pointerColorForeground:#16A085
 
-!! black dark/light
-*color0:                #282928
-*color8:                #272827
-
-!! red dark/light
-*color1:                #983133
-*color9:                #985F31
-
-!! green dark/light
-*color2:                #1D584D
-*color10:               #16A085
-
-!! yellow dark/light
-*color3:                #5CE022
-*color11:               #63B93D
-
-!! blue dark/light
-*color4:                #001B33
-*color12:               #839496
-
-!! cyan dark/light
-*color6:                #4F6A98
-*color14:               #2269E0
-
-!! white dark/light
-*color7:                #fdf6e3
-*color15:               #fdf6e3
+! Tango color palette
+*color0:  #2E3436
+*color1:  #a40000
+*color2:  #4E9A06
+*color3:  #C4A000
+*color4:  #3465A4
+*color5:  #75507B
+*color6:  #ce5c00
+*color7:  #babdb9
+*color8:  #555753
+*color9:  #EF2929
+*color10: #8AE234
+*color11: #FCE94F
+*color12: #729FCF
+*color13: #AD7FA8
+*color14: #fcaf3e
+*color15: #EEEEEC
 
 Xft.dpi: 96
 Xft.antialias: true
@@ -57,13 +47,13 @@ URxvt*scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
 URxvt*cursorBlink:                    true
 URxvt*background:                     black
-URxvt*foreground:                     grey
+URxvt*foreground:                     white
 URxvt*saveLines:                      5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
-! URxvt*inheritPixmap:                  true
-! URxvt*transparent:                    true
-! URxvt*shading:                        138
+URxvt*inheritPixmap:                  true
+URxvt*transparent:                    true
+URxvt*shading:                        15
 
 ! other possible settings:
 ! Rxvt.perl-ext-common: ...,clipboard
