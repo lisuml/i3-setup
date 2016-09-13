@@ -168,8 +168,10 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace0
 
-#bind tools to workspaces
+# bind tools to workspaces
 assign [class="Firefox"] $workspace1
+assign [class="Slack"] $workspace0
+assign [class="telegram-desktop"] $workspace0
 # reload the configuration file
 bindsym $mod+Shift+c             reload
 
