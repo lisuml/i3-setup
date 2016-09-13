@@ -268,3 +268,6 @@ exec --no-startup-id blueberry-tray
 exec --no-startup-id nm-applet
 #exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
+
+# Change some windows behaviour
+for_window [title="CSSH"] floating enable
