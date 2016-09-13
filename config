@@ -263,5 +263,8 @@ exec_always --no-startup-id feh --bg-fill "$(find $HOME/.wallpaper/|shuf -n1)"
 
 exec compton -f
 
+# Additional apps startup
 exec --no-startup-id blueberry-tray
 exec --no-startup-id nm-applet
+#exec --no-startup-id pamac-tray
+exec --no-startup-id clipit
