@@ -56,7 +56,7 @@ URxvt.depth: 32
 URxvt*scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
 URxvt*cursorBlink:                    true
-URxvt*saveLines:                      5000
+URxvt*saveLines:                      2000
 URxvt.letterSpace: -1
 URxvt*transparent:                    true
 URxvt*shading:                        15
