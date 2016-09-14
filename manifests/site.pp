@@ -18,7 +18,26 @@ file { "/home/${username}/.vimrc":
 }
 
 # i3
-package { 'i3': ensure => 'present' }
+## pacman packages
+package { [
+  'acpi',
+  'adobe-source-code-pro-fonts',
+  'clipit',
+  'compton',
+  'dash',
+  'feh',
+  'gsimplecal',
+  'i3',
+  'i3lock',
+  'imagemagick',
+  'notify-osd',
+  'pcmanfm',
+  'redshift',
+  'rxvt-unicode',
+  'scrot',
+]:
+  ensure  => 'present',
+}
 
 file { "/home/${username}/.xinitrc":
   owner   => $username,
