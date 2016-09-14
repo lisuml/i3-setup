@@ -259,6 +259,11 @@ focus_follows_mouse no
 # Printscreen bind
 bindsym Print exec scrot -q 95 '%Y-%m-%d-%s_$wx$h_scrot.png' -e 'mv $f ~/screenshots/'
 
+# Set initial keyboard layout
+exec setxkbmap ie
+# Switch keyboard layout shorcut
+bindsym $mod+o exec ~/.config/i3/switch_keyboard_layout
+
 exec_always --no-startup-id feh --bg-fill "$(find $HOME/.wallpaper/|shuf -n1)"
 
 exec compton -f

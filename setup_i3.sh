@@ -21,3 +21,4 @@ cp ./wallpaper/* $HOME/.wallpaper
 cp ./Xresources $HOME/.Xresources
 cp ./bashrc $HOME/.bashrc
 cp ./configure-xrandr $HOME/.config/i3/configure-xrandr
+cp ./switch_keyboard_layout $HOME/.config/i3/switch_keyboard_layout

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+LAY1=ie
+LAY2=pl
+
+if (setxkbmap -query | grep layout | grep -q $LAY1); then
+  setxkbmap $LAY2
+else
+  setxkbmap $LAY1
+fi
