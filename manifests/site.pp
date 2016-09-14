@@ -6,7 +6,19 @@ if $username == '' {
   fail('$username cannot be empty.')
 }
 
-package { ['i3', 'openssh', 'vim']: ensure => 'present' }
+### Magic starts here ###
+
+# vim
+package { 'vim': ensure => 'present' }
+
+file { "/home/${username}/.vimrc":
+  owner  => $username,
+  group  => $group,
+  source => 'puppet:///modules/manjaro_i3/dot.vimrc',
+}
+
+# i3
+package { 'i3': ensure => 'present' }
 
 file { "/home/${username}/.xinitrc":
   owner   => $username,
@@ -14,8 +26,6 @@ file { "/home/${username}/.xinitrc":
   content => 'exec i3',
 }
 
-file { "/home/${username}/.vimrc":
-  owner  => $username,
-  group  => $group,
-  source => 'puppet:///modules/manjaro_i3/dot.vimrc',
-}
+# openssh
+package { 'openssh': ensure => 'present' }
+
