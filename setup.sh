@@ -4,4 +4,4 @@
 yaourt -S --noconfirm puppet
 
 # Do the magic
-sudo puppet apply manifests/site.pp
+sudo puppet apply --modulepath=${PWD}/modules manifests/site.pp
