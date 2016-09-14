@@ -51,13 +51,14 @@ XTerm*reverseVideo: on
 XTerm*faceName: Terminus:size=11:antialias=true
 XTerm*selectToClipboard: true
 
-URxvt.font: xft:Source Code Pro:pixelsize=14
-URxvt.depth: 32
+URxvt*font: xft:Source Code Pro:pixelsize=14
+URxvt*depth: 32
 URxvt*scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
 URxvt*cursorBlink:                    true
 URxvt*saveLines:                      2000
-URxvt.letterSpace: -1
+URxvt*letterSpace: -1
 URxvt*transparent:                    true
 URxvt*shading:                        15
 URxvt*termName: rxvt-unicode
+URxvt*buffered: false
