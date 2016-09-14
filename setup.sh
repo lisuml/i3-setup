@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Install required packages
 yaourt -S --noconfirm puppet
 
 # Do the magic
